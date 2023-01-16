@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "AplikasiCarekids": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AplikasiCarekids"
+    }
+  },
+  "defaultProject": "AplikasiCarekids",
+  "cli": {
+    "analytics": "0034bb3b-20fa-4808-a97d-06751719b9ec"
+  }
 }
