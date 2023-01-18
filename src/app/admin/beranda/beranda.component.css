@@ -1,5 +1,5 @@
 *{
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Grotesk', sans-serif !important;
 }
 
 .nav-item {
@@ -15,4 +15,9 @@
     border-bottom: 3px solid  #FAFAFA;
     width: 80%;
     margin: auto;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: bold;
 }
