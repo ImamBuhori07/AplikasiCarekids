@@ -1,0 +1,18 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.nav-item {
+    font-size: 21px;
+    margin-right: 70px;
+    margin-left: -30px;
+    justify-items: left;
+}
+
+.nav-item:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid  #FAFAFA;
+    width: 80%;
+    margin: auto;
+}

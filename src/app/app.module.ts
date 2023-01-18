@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './admin/login/login.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BerandaComponent } from './admin/beranda/beranda.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    BerandaComponent,
   ],
   imports: [
     BrowserModule,
