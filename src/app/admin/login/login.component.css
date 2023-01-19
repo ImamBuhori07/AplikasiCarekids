@@ -17,7 +17,7 @@
 
  .Logo {
     position: absolute;
-    width: 140px;
+    width: 150px;
     height: 195.82px;
     left: 610px;
     top: 40px;
@@ -67,26 +67,36 @@
    padding: 7px 13px;
    }
 
-   .login-form .signin {
-      width: 360px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding: 7px 13px;
-      gap: 8px;   
-      background: #0070FC;
-      border-radius: 4px;
-      flex: none;
-      order: 0;
-      align-self: stretch;
-      flex-grow: 0;
-      margin-top: 24px;
-      color: #fff;
+.login-form .signin {
+   width: 360px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 7px 13px;
+   gap: 8px;   
+   background: #0070FC;
+   border-radius: 4px;
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin-top: 24px;
+   color: #fff;
    }
 
-   .login-form{
-      justify-content: center;
-      align-items: center;
+.login-form{
+   justify-content: center;
+   align-items: center;
    }
+
+/* .header {
+   position: absolute;
+   width: 350px;
+   height: 306px;
+   background: #0a2ae2;
+   border-radius: 10px;
+   margin-left: 10px;
+} */
+   
 
