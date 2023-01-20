@@ -2,11 +2,6 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
-body {
-    height: 100vh;
-    background-color:#060919;
-}
-
 .nav-item {
     font-size: 21px;
     margin-right: 70px;
@@ -22,17 +17,31 @@ body {
     margin: auto;
 }
 
-.main-content {
-    /* background-color: #060919;; */
+.nav-item:hover {
+    color: #FAFAFA;
+}
+
+.FotoProfil {
+    margin-right: 20px;
+}
+
+.main {
+    height: 100vh;
+    background-color: #060919;
+}
+
+section.main-content {
     color:#fff ;
+    background-image: url("../../../assets/img/Ombak.png");
 } 
 
 h2 {
     position: absolute;
     font-size: 35px;
     font-weight: bold;
-    margin-top: 30px;
+    top: 90px;
     margin-left: 80px;
+    text-align: center;
 }
 
 .Statistik {
@@ -41,8 +50,8 @@ h2 {
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
-    margin-top: 125px ;
-    margin-left: 80px;
+    top: 240px ;
+    margin-left: 90px;
 }
 
 h5 {
@@ -100,19 +109,30 @@ h5.o {
 
 .kotak1 {
     left: 72px;
-    top: 250px;
+    top: 280px;
 }
 .kotak2 {
     left: 398px;
-    top: 250px;
+    top: 280px;
 }
 .kotak3 {
     left: 724px;
-    top: 250px;
+    top: 280px;
 }
 
 p {
     margin-top: 7px;
 }
 
+.vector2 {
+    position: absolute;
+    width: 1000px;
+    bottom: -100px;
+    right: -5px;
+    overflow-x:hidden;
+}
+
+.footer {
+    z-index: 9999;
+}
 

@@ -90,6 +90,17 @@
    align-items: center;
    }
 
+
+   .showhide {
+      box-sizing: border-box;
+      border-radius: 5px;
+      background-color:#fff;
+      position: absolute;
+      border-bottom: none;
+      bottom: 66px;
+      right: 12px;
+   }
+
 /* .header {
    position: absolute;
    width: 350px;

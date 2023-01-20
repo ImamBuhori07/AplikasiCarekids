@@ -12,3 +12,11 @@
     width: 80%;
     margin: auto;
 }
+
+.nav-item:hover {
+    color: #FAFAFA;
+}
+
+.FotoProfil {
+    margin-right: 20px;
+}
