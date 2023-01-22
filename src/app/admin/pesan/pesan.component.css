@@ -1,8 +1,16 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 .nav-item {
     font-size: 21px;
     margin-right: 70px;
     margin-left: -30px;
     justify-items: left;
+}
+
+.nav-item a {
+    color: #FAFAFA;
 }
 
 .nav-item:hover::after {
@@ -19,4 +27,33 @@
 
 .FotoProfil {
     margin-right: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    display: block;
+    margin-top: 75px;
+    margin-left: 5px;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 48px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 5px;
+}
+
+.menu .a {
+    float: none;
+    margin-right: 30px;
+    width: 300px;
+}
+
+.menu .a #terbit {
+    margin-right: 10px;
+    margin-left: 10px;
 }

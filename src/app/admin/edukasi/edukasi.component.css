@@ -1,3 +1,7 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 .nav-item {
     font-size: 21px;
     margin-right: 70px;
@@ -13,10 +17,46 @@
     margin: auto;
 }
 
+.nav-item a {
+    color: #FAFAFA;
+}
 .nav-item:hover {
     color: #FAFAFA;
 }
 
 .FotoProfil {
     margin-right: 20px;
+}
+
+.main-header {
+    height: 100vh;
+}
+
+h2 {
+    font-weight: bold;
+    display: block;
+    margin-top: 75px;
+    margin-left: 5px;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 48px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 5px;
+}
+
+.menu .a {
+    float: none;
+    margin-right: 30px;
+    width: 300px;
+}
+
+.menu .a #terbit,#draft,#sampah {
+    margin-right: 10px;
+    margin-left: 10px;
 }

@@ -4,15 +4,19 @@
 
  body {
     height: 100vh;
-    background-color:#0C1027; 
+    background:linear-gradient(to bottom, #0070FC, #DEBFFF) 
     /* background-image: url(../../../assets/img/Grid.svg);
     background-size: cover; */
  }
 
  .login{
+   padding: 10px 10px;
+   background: #fff;
+   border-radius: 10px;
    position: relative;
    top: 250px;
    left: 500px;
+   color:#0C1027;
  }
 
  .Logo {

@@ -1,3 +1,7 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 .nav-item {
     font-size: 21px;
     margin-right: 70px;
@@ -5,10 +9,13 @@
     justify-items: left;
 }
 
+.nav-item a {
+    color: #FAFAFA;
+}
 .nav-item:hover::after {
     content: '';
     display: block;
-    border-bottom: 3px solid  #FAFAFA;
+    border-bottom: 3px solid  #0c0c0c;
     width: 80%;
     margin: auto;
 }
@@ -20,3 +27,38 @@
 .FotoProfil {
     margin-right: 20px;
 }
+
+h2 {
+    font-weight: bold;
+    display: block;
+    margin-top: 75px;
+    margin-left: 5px;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 48px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 5px;
+}
+
+.main-header {
+    height: 100vh;
+}
+
+.menu .a {
+    float: none;
+    margin-right: 30px;
+    width: 300px;
+}
+
+.menu .a #terbit,#draft,#sampah {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
