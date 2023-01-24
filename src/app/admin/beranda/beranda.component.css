@@ -121,17 +121,22 @@ h5.o {
     top: 280px;
 }
 
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
 .bulat {
-    width: 300px;
-    height: 300px;
+    height: 100%;
     border-top-left-radius: 80%;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     background-color: #3C6BC6;
     position: absolute;
-    right: 0px;
-    bottom: 5px;
+    right: 0;
+    bottom: 0;
 }
 
 p {

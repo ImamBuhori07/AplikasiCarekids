@@ -23,7 +23,7 @@
     position: absolute;
     width: 150px;
     height: 195.82px;
-    left: 610px;
+    left: 625px;
     top: 40px;
  }
 
@@ -94,7 +94,6 @@
    align-items: center;
    }
 
-
    .showhide {
       box-sizing: border-box;
       border-radius: 5px;
@@ -104,6 +103,8 @@
       bottom: 66px;
       right: 12px;
    }
+
+
 
 /* .header {
    position: absolute;
