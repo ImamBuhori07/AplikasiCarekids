@@ -8,10 +8,11 @@ import { BeritaComponent } from './berita/berita.component';
 import { DaftarKehilanganComponent } from './daftar-kehilangan/daftar-kehilangan.component';
 import { EdukasiComponent } from './edukasi/edukasi.component';
 import { PesanComponent } from './pesan/pesan.component';
+import { TambahpostinganComponent } from './tambahpostingan/tambahpostingan.component';
 
 
 @NgModule({
-  declarations: [LoginComponent, BerandaComponent, BeritaComponent, DaftarKehilanganComponent, EdukasiComponent, PesanComponent],
+  declarations: [LoginComponent, BerandaComponent, BeritaComponent, DaftarKehilanganComponent, EdukasiComponent, PesanComponent, TambahpostinganComponent],
   imports: [
     CommonModule,
     AdminRoutingModule
