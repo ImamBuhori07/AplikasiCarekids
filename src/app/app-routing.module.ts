@@ -6,6 +6,7 @@ import { DaftarKehilanganComponent } from './admin/daftar-kehilangan/daftar-kehi
 import { EdukasiComponent } from './admin/edukasi/edukasi.component';
 import { LoginComponent } from './admin/login/login.component';
 import { PesanComponent } from './admin/pesan/pesan.component';
+import { TambahpostinganComponent } from './admin/tambahpostingan/tambahpostingan.component';
 
 
 const routes: Routes = [
@@ -37,6 +38,11 @@ const routes: Routes = [
 {
   path:"Pesan",
   component:PesanComponent
+},
+
+{
+  path:"TambahPostingan",
+  component:TambahpostinganComponent
 }
 ];
 
