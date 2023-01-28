@@ -73,3 +73,13 @@ h3 ,p {
 label {
     text-align: center;
 }
+
+input {
+    background: #FFC947;
+    width: 258px;
+    height: 30px;
+    left: 1091px;
+    top: 316px;
+    margin-left: 19px;
+    border-radius: 0%;
+}
