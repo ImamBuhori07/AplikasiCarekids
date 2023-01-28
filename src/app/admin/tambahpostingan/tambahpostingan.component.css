@@ -69,3 +69,7 @@ h3 ,p {
     left: 1031px;
     top: 505px;
 }
+
+label {
+    text-align: center;
+}
