@@ -44,6 +44,7 @@ const routes: Routes = [
   path:"TambahPostingan",
   component:TambahpostinganComponent
 }
+
 ];
 
 @NgModule({
